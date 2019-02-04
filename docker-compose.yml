@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        REQUIREMENTS_ARG: local
+        SETTINGS_ARG: local
+        SECRET_KEY_ARG: vkahahapn4an+%mk#2b@whnk(g-kth^vna^-eo0+!6o6n7zi)w
+    ports: 
+      - "8000:8000"
+    volumes: 
+      - .:/project
