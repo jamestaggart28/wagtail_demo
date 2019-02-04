@@ -5,6 +5,7 @@ Simple bootstrapped demo of wagtail cms.
 ## Local Setup
 
 Mac installation for Docker
+
 https://docs.docker.com/docker-for-mac/install/
 
 Running NGINX and UWSGI
