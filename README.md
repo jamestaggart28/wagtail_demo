@@ -29,7 +29,7 @@ Getting shell access
 - REQUIREMENTS: The name of the requirements file you want to run no extension.
 - DJANGO SECRET KEY: The secret key you are going to use for this container.
 
-Note: Ideally ENVIRONEMNT, REQUIREMENTS, and SETTINGS should all be the same value matching the type of environment you are trying to create. 
+Note: Ideally ENVIRONMENT, REQUIREMENTS, and SETTINGS should all be the same value matching the type of environment you are trying to create. 
 
 4. Run the following commands on mac and linux:
  - $(aws ecr get-login --no-include-email --region us-east-1)
